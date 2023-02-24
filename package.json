@@ -1,0 +1,50 @@
+{
+  "name": "kracker-api-user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect --trace-warnings ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/market21st/kracker-api-user.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/market21st/kracker-api-user/issues"
+  },
+  "homepage": "https://github.com/market21st/kracker-api-user#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.186.0",
+    "@aws-sdk/client-secrets-manager": "^3.213.0",
+    "aigle": "^1.14.1",
+    "aws-sdk": "^2.1230.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-bearer-token": "^2.4.0",
+    "firebase-admin": "^11.0.1",
+    "hashids": "^2.2.10",
+    "ioredis": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "object-mapper": "^6.2.0",
+    "qs": "^6.11.0",
+    "request": "^2.88.2",
+    "request-ip": "^3.3.0",
+    "request-promise": "^4.2.6",
+    "response-format": "^1.2.0",
+    "schema-inspector": "^2.0.1",
+    "sequelize": "^6.23.0",
+    "url-parse": "^1.5.10"
+  }
+}

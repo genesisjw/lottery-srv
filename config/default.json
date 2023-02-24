@@ -1,0 +1,31 @@
+{
+    "app": {
+        "env": "default",
+        "name": "lottery-api",
+        "version": "v1",
+        "domain": "http://localhost:3000/",
+        "port": 3000
+    },
+    "secret": {
+        "session": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "database": {
+        "mysql": {
+            "host": ["lottery.cap2p5g1ixnj.ap-northeast-2.rds.amazonaws.com", "lottery.cap2p5g1ixnj.ap-northeast-2.rds.amazonaws.com"],
+            "dbname": ["lottery"],
+            "user": "admin",
+            "password": "X5mzZKQ3necQzUxla6kb",
+            "protocol": "mysql",
+            "port": "3306",
+            "logging": true
+        },
+        "redis": {
+            "port": 6379,
+            "host": "localhost",
+            "db": 0
+        }
+    },
+    "aws": {
+        "region": "ap-northeast-2"
+    }
+}

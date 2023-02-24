@@ -1,0 +1,16 @@
+version: 0.1
+phases:
+    install:
+        commands:
+            - echo Installing jq
+            - yum install jq
+    pre_build:
+        commands:
+            - echo Copy secret to config
+            - aws secretsmanager get-secret-value --secret-id $ENV/kracker/service-api | jq '.SecretString | fromjson' > ./config/$ENV.json
+            - echo Installing source NPM dependencies...
+            - npm install
+artifacts:
+    files:
+        - '**/*'
+    discard-paths: no
