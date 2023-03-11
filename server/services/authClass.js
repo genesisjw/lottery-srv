@@ -35,7 +35,6 @@ authClass.prototype.verifyToken = async function (token) {
             return Format.success(null, { existDB: !!_verifyExist_.error, token: fb });
         }
     } catch (e) {
-        Sentry.captureException(e);
         return Format.internalError(e.message);
     }
 };
@@ -57,7 +56,6 @@ authClass.prototype.verifyExist = async function (params) {
             return Format.success(null, _user_);
         }
     } catch (e) {
-        Sentry.captureException(e);
         return Format.internalError(e.message);
     }
 };
@@ -72,7 +70,6 @@ authClass.prototype.createNewUser = async function (base) {
         return Format.success(null, _userBase_);
     } catch (e) {
         await _trans_.rollback();
-        Sentry.captureException(e);
 
         throw new Error(e);
     }
@@ -104,7 +101,6 @@ authClass.prototype.getBaseByUid = async function (obj) {
 
         return { isNew: created, data: user };
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };
@@ -116,7 +112,6 @@ authClass.prototype.setUserAgreement = async function (agreements) {
 
         return agreements;
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };
@@ -132,7 +127,6 @@ authClass.prototype.setUserInvited = async function (inviteCode, userId) {
 
         return true;
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };

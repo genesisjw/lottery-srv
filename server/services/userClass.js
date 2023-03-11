@@ -2,7 +2,6 @@ const _ = require('lodash');
 const objectMapper = require('object-mapper');
 const moment = require('moment');
 const util = require('util');
-const Sentry = require('@sentry/node');
 
 const constants = require('../constants');
 
@@ -34,7 +33,6 @@ userClass.prototype.getMyInfo = async function () {
 
         return user;
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };
@@ -55,7 +53,6 @@ userClass.prototype.setMyAgreement = async function (reqObj) {
 
         return userAgreement;
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };
@@ -104,7 +101,6 @@ userClass.prototype.getMyServiceUsageList = async function (reqObj) {
 
         return order;
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };
@@ -143,7 +139,6 @@ userClass.prototype.getMyServiceUsageInfo = async function (reqObj) {
 
         return dest;
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };
@@ -163,7 +158,6 @@ userClass.prototype.setUserWithdraw = async function (reqObj) {
 
         return true;
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };
@@ -188,7 +182,6 @@ userClass.prototype.checkStep = async function () {
 
         return returnStep;
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };
@@ -216,7 +209,6 @@ userClass.prototype.getMyReviews = async function (user) {
 
         return reviews;
     } catch (e) {
-        Sentry.captureException(e);
         throw new Error(e);
     }
 };

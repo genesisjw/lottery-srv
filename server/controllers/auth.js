@@ -11,7 +11,7 @@ const exec = require('child_process').exec;
 
 const router = express.Router();
 
-const { validApiToken, requestCombined, sendToBatch, GetValue, mapper, signJWT, validRefreshToken } = require('../lib');
+const { validApiToken, requestCombined, sendToBatch, GetValue, mapper, signJWT } = require('../lib');
 const constants = require('../constants');
 
 const { authClass } = require('../services');
@@ -25,7 +25,7 @@ const { createFirebaseToken, checkUid, deleteUid } = require('../lib/firebase');
 
 const services = new authClass();
 
-router.post('/getAccessToken', [requestCombined, validRefreshToken], async (req, res) => {
+router.post('/getAccessToken', [requestCombined], async (req, res) => {
     inspector.sanitize(mapper.request.authMapper.getAccessTokenDto, req.combined).data;
     const { refreshToken } = req.combined;
 

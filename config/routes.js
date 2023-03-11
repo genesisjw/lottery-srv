@@ -11,8 +11,5 @@ module.exports = (app) => {
     console.log(`/auth`);
     app.use(`/auth`, controllers.auth);
 
-    console.log(`/user`);
-    app.use(`/user`, controllers.user);
-
     console.log('\r');
 };

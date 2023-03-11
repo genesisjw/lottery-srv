@@ -27,5 +27,17 @@
     },
     "aws": {
         "region": "ap-northeast-2"
+    },
+    "firebase": {
+        "type": "service_account",
+        "project_id": "lottery-31547",
+        "private_key_id": "ef301ac66d5b8395b9fd569ac0950da37d40a900",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC31OWXJk523N/T\nhNb1ZCUtO21aKEaeWOS6cX6hM/pVG7dH9ZmQHCYa2KD56Pz4bUAFIBmIdmdjht3n\nXtdbAasGS5Sg/EoX6lXUm6D7USyue7WM6LgvZ982/88ueuFh9SOOGUlacYK+MIF7\nTfQLRq2I76Bem81/sg23Nq8JCrqeWVhGO6cAft4p1Z6XNEQ6EoIwpZCW5lCs+iCX\nZambKkcH9mF7YezkkBVHBVGMBT2NdoDrMo4sfb7KXa4lyw/uIItyplVRS+7CqNps\n/RpY0HDctfSCsclHdTIi+STFZ+vx4rubpVWSi8KF2En+T+RmbCGDfnyxsg63yMot\naQb2XqPhAgMBAAECggEAA70RWn+jn76WEXhZkgniaOslChzos0CT7cAAQxViV1vi\nAEVUFTqCUqBSVUTGDMQVhckpZcVhLMSt035R90KHXLBZrmS1GcuI6XMNDQFhjQ6c\nYohK0yF72FOvXibO+bnVWlbkr1GAxv8H6hbbskVCoxba+kOVRD4d8ep7eK3Kfe0C\nx8UMOf+/kAJkY3G/tmyDiRRisZDDPUxFH+G3ZbtOmKwZCg9mYDYlxAKouqrUhNLi\n0aoQW6QFH1ns3f8mzEvt8CsuFNQtaX0BdwTOAzK0gCC1z1xSjEj/wAHL44MWFiDb\njlyPN0jJQt+mhpOsfHvJ+Cu+zcwdJKif5ZiP1ttXAQKBgQDcOIwfai5lkgpKugHl\nGXj4X5+B/0DaYp+x6dVShGt+WeqtRMKQBfrYD7Q7dmnS0tLl45ntDku2PHF3yAg+\nwKm2+BANVWl99rO7QSL6cgiHk8rPniCQ+ed2wRLpvaGsxfrVxLxOVw6bAnOWxkM8\njAzuJBL/2VDM+lbFi0qne8cUgQKBgQDVstfapo+/eqrmB06Nbqil5sqU0G/Zv+nR\nuToXyT1e0IKIpFtnjmYvZHHfgidzrdMIXuegwSiVTE7TL75Rmgn2X43FFUXURZGc\no702GP2hUBS0TJxII/Xal+xryD0GuGIqiUcbKomwxKfiudFdSSJhx1Cys7u/YHQh\n27yw9VRfYQKBgD2Ib163xI8M52NJ5g2luG9uCJvCPtTGieikdb7A0WhUp4YSmGq1\nwQluGeYjiB4oWlVx6yiZvf4FlY7qjaM7IjDFz3ZqTzerHz1LTgK8qjV3zkuE24Sm\nz04XVLmLCwnDp/rjJdqd6K7XWITgkRjx6QsBeW2Tw0gDCwvXh9yUcWQBAoGBANOD\nj/kAMXmhzbOeedatN8n1dH/1CzBoruMBRgmzCsZk9T6QB1SpcmToM3m5lpj97Mn1\nPag0Z5nWjJKlR+f24nN0QptWoeYn8acrviTkeW4IGGYZCfqxdS+mfcB00kprh+Z4\nN+Qgp2ZKT62upBaEQ76qDCrEkUksC+ZTWyF/wcIhAoGBAM9WPOfZUttTOSJtu2TO\nsTooOPMb/3jcY0L4s4AB8op+P0KpNXtEN7f3JyyOlYMWE5Dm9EIVTjGzd8Trm06w\nvpuh1FSM7BldFhQoJVhbi9xpdqf5ifIQP+hMU8pNBF00xVxhjj+t/fN1eVwr4dYi\n77rlQ81LD+EG07cOhPKLO9A0\n-----END PRIVATE KEY-----\n",
+        "client_email": "firebase-adminsdk-x1gv4@lottery-31547.iam.gserviceaccount.com",
+        "client_id": "112408979198480245970",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-x1gv4%40lottery-31547.iam.gserviceaccount.com"
     }
 }
