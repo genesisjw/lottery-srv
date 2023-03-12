@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
     - source: /
-      destination: /home/ec2-user/lottery-server
+      destination: /home/ec2-user/lottery-srv
 permissions:
     - object: /home/ec2-user
       owner: ec2-user
