@@ -12,35 +12,12 @@ module.exports = (db) => {
             uid: {
                 type: Sequelize.STRING,
             },
-            email: {
-                type: Sequelize.STRING,
-            },
             name: {
                 type: Sequelize.STRING,
             },
-            phone: {
+            profileImage: {
                 type: Sequelize.STRING,
-            },
-            inviteCode: {
-                type: Sequelize.STRING,
-                field: 'invite_code',
-            },
-            ci: {
-                type: Sequelize.STRING,
-            },
-            birthday: {
-                type: Sequelize.DATE,
-            },
-            isWithdrawal: {
-                type: Sequelize.INTEGER,
-                field: 'is_withdrawal',
-            },
-            reason: {
-                type: Sequelize.TEXT,
-            },
-            updatedAt: {
-                type: Sequelize.DATE,
-                field: 'updated_at',
+                field: 'profile_image',
             },
             createdAt: {
                 type: Sequelize.DATE,
