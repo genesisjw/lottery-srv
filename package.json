@@ -44,7 +44,7 @@
     "request-promise": "^4.2.6",
     "response-format": "^1.2.0",
     "schema-inspector": "^2.0.1",
-    "sequelize": "^6.23.0",
+    "sequelize": "^6.29.0",
     "url-parse": "^1.5.10"
   }
 }
