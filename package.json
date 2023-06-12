@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/market21st/kracker-api-user#readme",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.186.0",
-    "@aws-sdk/client-secrets-manager": "^3.213.0",
+    "@aws-sdk/client-s3": "^3.350.0",
+    "@aws-sdk/client-secrets-manager": "^3.350.0",
     "aigle": "^1.14.1",
     "aws-sdk": "^2.1230.0",
     "compression": "^1.7.4",
